@@ -31,7 +31,7 @@ var server = http.createServer(function(request, response){
     response.setHeader('Frank', 'XXXX')
     response.write(`
     <link rel="stylesheet" href="/x">
-    <h1>你好</h1>
+    <h1>hello</h1>
     <script src="/y"></script>
   `)
     response.end()
